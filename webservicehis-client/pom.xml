@@ -37,7 +37,7 @@
             
            
            
-           <plugin>
+            <plugin>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-codegen-plugin</artifactId>
                 <version>${cxf.version}</version>
@@ -80,20 +80,12 @@
                 </dependencies>
             </plugin>
            
-           
-           
-           
-           
-            
             
             
         </plugins>
     </build>
     
     <repositories>
-        
-        
-      
         
         
         <repository>
@@ -148,7 +140,7 @@
        
     
     
-     <dependency>
+        <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-common-utilities</artifactId>
             <version>${cxf.version}</version>
