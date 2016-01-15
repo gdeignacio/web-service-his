@@ -133,8 +133,8 @@ public class ClientWebServiceHIS {
          */
          // System.exit(0);
 
-       System.setProperty("es.caib.sgtsic.webservicehis.client.username", "user");
-       System.setProperty("es.caib.sgtsic.webservicehis.client.password", "pwd");
+       System.setProperty("es.caib.sgtsic.webservicehis.client.username", "$hman_cbpmd");
+       System.setProperty("es.caib.sgtsic.webservicehis.client.password", "hman_cbpmd");
        System.setProperty("es.caib.sgtsic.webservicehis.client.baseURL", "http://10.215.9.179:18080/pdpcmb/services");
 
        
