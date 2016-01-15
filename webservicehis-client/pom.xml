@@ -6,8 +6,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     
-    
-    
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -16,15 +14,12 @@
         </license>
     </licenses>
     
-    
-    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <cxf.version>2.2.12</cxf.version>
     </properties>
-    
     
     <build>
         <plugins>
@@ -46,9 +41,6 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
-            
-            
-           
            
             <plugin>
                 <groupId>org.apache.cxf</groupId>
@@ -59,7 +51,7 @@
                         <id>WebServiceHIS</id>
                         <phase>generate-sources</phase>
                         <configuration>
-                            <sourceRoot>${basedir}/target/generated/src/main/java</sourceRoot>
+                            <!--sourceRoot>${basedir}/target/generated/cxf-codegen-plugin</sourceRoot-->
                             <wsdlOptions>
                                 <wsdlOption>
                                     <wsdl>https://proves.caib.es/pdpcmb/services/WebServiceHIS?wsdl</wsdl>
@@ -149,9 +141,6 @@
             <version>1.4.7</version>
             <type>jar</type>
         </dependency>
-        
-       
-    
     
         <dependency>
             <groupId>org.apache.cxf</groupId>
